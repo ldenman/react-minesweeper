@@ -1,8 +1,23 @@
+# Minesweeper
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Main code
+
+You can find the main code files in the `src` directory
+
+`App`: the main application entrypoint
+`Board`: the Board React component
+`Tile`: the Tile React component
+`Helpers`: useful functions, mainly to manipulate the 2-dimensional data structure
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn`
+
+Fetches the project dependencies
 
 ### `yarn start`
 
