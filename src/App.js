@@ -33,7 +33,7 @@ class App extends Component {
 
     }
     setSize(x) {
-	this.setState({size: parseInt(x.target.value)}, () => {this.render()})
+	this.setState({size: parseInt(x.target.value)})
     }
     setMineCount(x) {
 	this.setState({mineCount: parseInt(x.target.value)})
